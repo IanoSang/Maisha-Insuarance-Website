@@ -2,14 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: montserrat;
 }
 .top{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    font-size: x-large;
-
-
+    font-size: large;
 }
 a {
     text-decoration: none;
@@ -18,18 +17,130 @@ a {
 
 
 .bar{
-    width: 100%;
-    height: 100vh;
-    background-image:url("cohort24-IP2/Assets/hero-cover.3.png") ;
-    background-size: cover;
-    position: relative;
-}
-.login{
-    float: right;
-    flex-direction: row;
-}
+     width: 100%;
+     height: 100vh;
+     background-image:url("cohort24-IP2/Assets/hero-cover.3.png") ;
+     background-size: cover;
+     position: relative;
+ }
+
 li{
     list-style: none;
     justify-content: space-around;
-    margin-right: 80px;;
+    margin-right: 80px;
+    display: inline;
+}
+.buttons{
+    display: inline;
+    position: relative;
+    top: -10px;
+}
+ button {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+.login {
+    background-color: transparent;
+    font-size: 18px;
+    padding-right: 30px;
+}
+.sign-up{
+    background-color: #23a6f0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.hero-message{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+.hero-message h2{
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+.message{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.hero-buttons{
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.quote{
+    height: 35px;
+    width: 120px;
+    border-radius: 70px;
+    background-color: #23A6F0;
+}
+.learn-more {
+    height: 35px;
+    width: 100px;
+    border-radius: 70px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    padding: 100px 0;
+    column-gap: 30px;
+}
+.box {
+    z-index: 10;
+    margin-top: -15%;
+    flex-basis: 25%;
+    background-color: #fff;
+    flex-wrap: wrap;
+    padding: 40px 10px 40px 30px;
+    text-align: left;
+    color: #252b42;
+}
+
+.box:last-child {
+    background-color: #23a6f0;
+    color: #fff;
+}
+
+.box-header,
+.box-text {
+    width: 70%;
+    margin-top: 10px;
+}
+
+. {
+    color: #23a6f0;
+}
+
+.child-box {
+    display: flex;
+    column-gap: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 150px 0;
+}
+
+ .child {
+    text-align: center;
+    flex-basis: 15%;
+}
+
+.child h3 {
+    color: #252b42;
+    margin-top: 20px;
+}
+
+.child p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
 }
