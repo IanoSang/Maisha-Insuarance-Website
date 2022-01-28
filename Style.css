@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.bar{
+    width: 100%;
+    height: 100vh;
+    background-image:url("cohort24-IP2/Assets/hero-cover.3.png") ;
+    background-size: cover;
+    position: relative;
+}
+.login{
+    float: right;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 80px;;
+}
