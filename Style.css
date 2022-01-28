@@ -144,3 +144,36 @@ li{
     font-size: 14px;
     color: gray;
 }
+
+.industry {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.industry-msg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    column-gap: 4%;
+    flex-wrap: wrap;
+}
+
+.client {
+    padding: 40px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: #fff;
+    color: gray;
+}
+
+.fa-star {
+    color: rgb(250, 200, 0);
+}
+.clients {
+    flex-basis: 20%;
+}
+.header{
+    text-align: center;
+}
