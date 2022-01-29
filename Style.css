@@ -162,11 +162,16 @@ li{
     border: 1px solid lightgray;
     border-radius: 4px;
     background-color: #fff;
-    color: gray;
-}
 
+}
 .checked {
     color: orange;
+}
+.noncheck{
+    opacity: .3;
+}
+.star{
+    padding:15px 0px ;
 }
 .clients {
     flex-basis: 20%;
