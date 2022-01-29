@@ -203,3 +203,19 @@ li{
     border-radius: 4px;
 }
 
+.subscribe button {
+    padding: 24px 30px;
+    border: 1px solid #fff;
+    border-radius: 0 4px 4px 0;
+    background-color: #23a6f0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.subscribe input{
+    width: 500px;
+    height: 70px;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
