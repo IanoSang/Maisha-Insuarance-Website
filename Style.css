@@ -225,6 +225,9 @@ li{
     padding-left: 10px;
 }
 .prizing{
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+}
+.card{
+    flex-direction: row;
 }
