@@ -116,9 +116,6 @@ li{
     margin-top: 10px;
 }
 
-. {
-    color: #23a6f0;
-}
 
 .child-box {
     display: flex;
@@ -168,8 +165,8 @@ li{
     color: gray;
 }
 
-.fa-star {
-    color: rgb(250, 200, 0);
+.checked {
+    color: orange;
 }
 .clients {
     flex-basis: 20%;
@@ -177,3 +174,32 @@ li{
 .header{
     text-align: center;
 }
+.icons-img{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+
+}
+.subscribe {
+    display: flex;
+    width: 80%;
+    padding: 70px;
+    margin-left: 40px;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(to right, #252b42, rgb(252, 0, 155));
+}
+.subscribe>h2{
+    flex-basis: 30%;
+    color: #fff;
+}
+.subscribe>form{
+    background-color: #fff;
+    border-radius: 4px;
+}
+
