@@ -232,12 +232,28 @@ li{
     display: flex;
     margin-top: 25px;
     padding: 150px;
+    height: 750px;
+}
+.free{
+    padding: 25px;
+    background-color: white;
+    border:1px solid #23A6F0;
+    border-radius: 15px;
+
 }
 .standard{
     padding: 25px;
     background-color: #252b42;
+    border:1px solid #23A6F0;
+    border-radius: 15px;
     color: whitesmoke;
-    margin-top: -20px;
+    margin-top: -30px;
+}
+.premium{
+    padding: 25px;
+    background-color: white;
+    border:1px solid #23A6F0;
+    border-radius: 15px;
 }
 .prizes button {
     background-color: #23A6F0;
@@ -247,6 +263,11 @@ li{
     border: none;
     border-radius: 2px;
     color: white;
+}
+.figures {
+    color: #23A6F0;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 .card{
     flex-direction: row;
