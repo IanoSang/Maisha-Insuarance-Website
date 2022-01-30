@@ -344,10 +344,11 @@ li{
 .company-info{
     display: flex;
     flex-direction: row;
+    align-content: center;
 
 }
 .column{
-    padding: 50px;
+
     align-items: flex-start;
     gap: 0;
 }
@@ -357,4 +358,8 @@ li{
     color: gray;
     font-size: 14px;
     cursor: pointer;
+}
+.color-primary{
+    color: #23A6F0;
+    font-size: 30px;
 }
