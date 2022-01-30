@@ -164,14 +164,10 @@ li{
     background-color: #fff;
 
 }
-.ratings checked {
-    color: orange;
-}
-.ratings noncheck{
-    opacity: .3;
-}
+
 .ratings{
-    padding:15px 0px ;
+    padding:10px 0px ;
+    color: orange;
 }
 .clients {
     flex-basis: 20%;
