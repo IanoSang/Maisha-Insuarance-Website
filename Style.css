@@ -164,13 +164,13 @@ li{
     background-color: #fff;
 
 }
-.checked {
+.ratings checked {
     color: orange;
 }
-.noncheck{
+.ratings noncheck{
     opacity: .3;
 }
-.star{
+.ratings{
     padding:15px 0px ;
 }
 .clients {
@@ -232,7 +232,7 @@ li{
     flex-direction: row;
 }
 .world{
-    background-color: darkslategrey;
+    background-color: #252b42;
     margin-top: 20px;
 }
 .branches{
