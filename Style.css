@@ -345,10 +345,10 @@ li{
     display: flex;
     flex-direction: row;
     align-content: center;
+    padding: 50px;
 
 }
 .column{
-
     align-items: flex-start;
     gap: 0;
 }
