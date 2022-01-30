@@ -254,11 +254,26 @@ li{
 .map img{
     height: 150px;
 }
-.row{
-    display: flex;
-    padding-right: 25%;
+.booking{
     padding-left: 25%;
 }
-.form{
-    flex-direction: column;
+.row{
+    display: flex;
+    margin-top: 50px;
 }
+.family-img{
+    position: relative;
+    margin-bottom: -150px;
+}
+.form{
+    padding: 25px;
+    background-color: white;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    margin-bottom: -150px;
+}
+.form h2{
+    text-align: center;
+}
+
