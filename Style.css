@@ -187,8 +187,9 @@ li{
 .subscribe {
     display: flex;
     width: 80%;
+    height: 100px;
     padding: 70px;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 100px;
     justify-content: space-between;
     align-items: center;
@@ -199,13 +200,16 @@ li{
     flex-basis: 30%;
     color: #fff;
 }
-.subscribe>form{
+.subscribe form{
+    display: flex;
     background-color: #fff;
     border-radius: 4px;
+    height: 15px;
+    margin-bottom: 35px;
 }
 
 .subscribe button {
-    padding: 24px 30px;
+    padding: 34px 30px;
     border: 1px solid #fff;
     border-radius: 0 4px 4px 0;
     background-color: #23a6f0;
@@ -320,4 +324,20 @@ li{
 .form h2{
     text-align: center;
 }
+.consulting{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    padding: 150px;
+}
+.consulting button{
+}
 
+.consulting button{
+    background-color: #23A6F0;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
