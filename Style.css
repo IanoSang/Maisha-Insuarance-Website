@@ -231,3 +231,24 @@ li{
 .card{
     flex-direction: row;
 }
+.branches{
+    display: flex;
+    flex-direction: row;
+    background-color: darkslategrey;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.branches-msg{
+    margin-top: 30px;
+    padding-left: 100px;
+}
+.map{
+    margin-top: 50px;
+    padding-right: 250px;
+}
+
+.map img{
+    height: 150px;
+}
