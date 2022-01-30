@@ -346,6 +346,8 @@ li{
     flex-direction: row;
 
 }
-.row{
-    flex-direction: row;
+.column{
+    padding: 50px;
+    align-items: flex-start;
+    gap: 0;
 }
