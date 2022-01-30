@@ -228,6 +228,26 @@ li{
     padding: 30px;
     text-align: center;
 }
+.prizes{
+    display: flex;
+    margin-top: 25px;
+    padding: 150px;
+}
+.standard{
+    padding: 25px;
+    background-color: #252b42;
+    color: whitesmoke;
+    margin-top: -20px;
+}
+.prizes button {
+    background-color: #23A6F0;
+    padding: 10px;
+    font-weight: bold;
+    width: 80%;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
 .card{
     flex-direction: row;
 }
