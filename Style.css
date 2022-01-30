@@ -231,18 +231,20 @@ li{
 .card{
     flex-direction: row;
 }
+.world{
+    background-color: darkslategrey;
+    margin-top: 20px;
+}
 .branches{
     display: flex;
     flex-direction: row;
-    background-color: darkslategrey;
-    margin-top: 20px;
-    align-items: center;
     justify-content: space-between;
 
 }
 .branches-msg{
     margin-top: 30px;
     padding-left: 100px;
+    color: white;
 }
 .map{
     margin-top: 50px;
@@ -251,4 +253,12 @@ li{
 
 .map img{
     height: 150px;
+}
+.row{
+    display: flex;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+.form{
+    flex-direction: column;
 }
