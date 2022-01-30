@@ -341,3 +341,11 @@ li{
     border-radius: 2px;
     color: white;
 }
+.company-info{
+    display: flex;
+    flex-direction: row;
+
+}
+.row{
+    flex-direction: row;
+}
