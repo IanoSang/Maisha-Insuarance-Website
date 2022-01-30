@@ -351,3 +351,10 @@ li{
     align-items: flex-start;
     gap: 0;
 }
+.footer ul {
+    list-style: none;
+    padding: 10px 0;
+    color: gray;
+    font-size: 14px;
+    cursor: pointer;
+}
