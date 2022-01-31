@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: Montserrat;
 }
 .top{
     padding: 20px;
@@ -39,6 +39,12 @@ li{
     cursor: pointer;
     color: #fff;
     border: none;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }
 .login {
     background-color: transparent;
